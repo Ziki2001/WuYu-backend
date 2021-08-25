@@ -1,0 +1,16 @@
+server:
+  port: 
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.ziki2333.top/WuYu_data?useSSL=false&serverTimezone=UTC
+    username: 
+    password: 
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 15MB
+logging:
+  level:
+    com.ziki.holidaywork:
+      dao: debug
